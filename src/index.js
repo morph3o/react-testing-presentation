@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-import Contador from "./Contador";
+import ContadorHook from "./ContadorHook";
 
 function App() {
   return (
     <div className="App">
       <h1>Contador</h1>
-      <Contador />
+      <ContadorHook />
     </div>
   );
 }

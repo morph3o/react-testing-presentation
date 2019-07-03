@@ -6,8 +6,13 @@ const ContadorHook = () => {
   return (
     <div>
       <h2>Contador Hook</h2>
-      <h3 data-testid="contador">{contador}</h3>
-      <button onClick={() => setContador(contador + 1)}>+1</button>
+      <h3 data-testid="counter-text">{contador}</h3>
+      <button
+        onClick={() => setContador(contador + 1)}
+        data-testid="button-increment"
+      >
+        +1
+      </button>
     </div>
   );
 };
